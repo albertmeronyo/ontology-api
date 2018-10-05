@@ -1,0 +1,8 @@
+#+ endpoint: https://raw.githubusercontent.com/ahmad88me/saref-ext/master/SAREF4BLD/ontology/saref4bldg.ttl
+#+ summary: Example query that gets all classes
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?class WHERE {
+?class a owl:Class .
+}
